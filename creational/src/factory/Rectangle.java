@@ -1,6 +1,6 @@
-package main.java.factory;
+package factory;
 
-public class Rectangle  implements  Shape{
+public class Rectangle  implements Shape {
     @Override
     public void draw() {
         System.out.println("Rectangle is drawn!");
