@@ -26,5 +26,23 @@ public class Employee {
         this.dueDate = dueDate;
     }
 
+    public long getId() {
+        return id;
+    }
 
+    public String getSummary() {
+        return summary;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public boolean isDone() {
+        return done;
+    }
+
+    public Date getDueDate() {
+        return dueDate;
+    }
 }
